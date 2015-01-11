@@ -25,4 +25,13 @@ angular.module('starter.controllers', [])
   $scope.settings = {
     enableFriends: true
   };
-});
+})
+
+.controller('MainCtrl', function($scope, $stateParams, Friends) {
+  angular.element("body").height(angular.element(window).height());
+  console.log(angular.element(window).height())
+  console.log(angular.element("body").height());
+})
+
+
+;

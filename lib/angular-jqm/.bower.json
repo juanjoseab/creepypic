@@ -1,0 +1,31 @@
+{
+  "name": "angular-jqm",
+  "main": [
+    "dist/jqm-adapter.js"
+  ],
+  "dependencies": {
+    "angular": "http://code.angularjs.org/1.1.5/angular-1.1.5.zip"
+  },
+  "devDependencies": {
+    "jquery": "1.9.1",
+    "jquery-mobile": "http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.zip",
+    "angular-scrolly": "~0.0.2"
+  },
+  "ignore": [
+    "build/",
+    "src/",
+    "test/",
+    "*"
+  ],
+  "homepage": "https://github.com/opitzconsulting/angular-jqm",
+  "_release": "92f6cfffc4",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "92f6cfffc48c98399d280cc8de34a748a281905b"
+  },
+  "_source": "git://github.com/opitzconsulting/angular-jqm.git",
+  "_target": "*",
+  "_originalSource": "angular-jqm",
+  "_direct": true
+}

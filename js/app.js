@@ -34,7 +34,8 @@ angular.module('starter', ['ionic', 'ngTouch', 'starter.controllers', 'starter.s
     .state('app', {
     url: "/home",
     //abstract: true,
-    templateUrl: "pages/home.html"
+    templateUrl: "pages/home.html",
+    controller: 'MainCtrl'
   })
 
   // Each tab has its own nav history stack:
